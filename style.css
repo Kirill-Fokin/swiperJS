@@ -1,0 +1,90 @@
+/* import font Montserat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("images/bg.jpg") #030728 no-repeat center;
+}
+
+
+.user-name {
+  font-weight: 500;
+}
+
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 4px;
+  margin-bottom: 40px;
+  border: 3px solid #fff;
+  object-fit: cover; 
+}
+
+.card-list .card-item .user-professtion {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+
+.card-list .card-item {
+  row-gap: 2rem;
+  backdrop-filter: blur(30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 35px;
+  color: #fff;
+  user-select: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all .4s ease-in-out;
+}
+
+.card-list .card-item:hover {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+ 
+.user-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid transparent;
+  transition: all .2s ease-in-out;
+}
+
+.user-button:hover {
+  background-color: rgba(255, 255, 255, 0.1) ;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 15px;
+  width: 15px;
+}
