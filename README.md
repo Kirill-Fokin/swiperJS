@@ -1,2 +1,3 @@
 simple slider swiper js
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQms2cMjibn1Ww0pXMfMB9IgAesdhVP3uHyzw&s
+
+![Снимок экрана 2024-08-26 в 11 26 37](https://github.com/user-attachments/assets/0abe76a1-fe69-49c8-b7ba-8283a0d52b88)
